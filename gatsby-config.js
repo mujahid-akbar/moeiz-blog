@@ -1,8 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `Moeiz's Blog`,
-    author: `Moeiz Ahmed`,
-    description: `Personal blog by Moeiz Ahmed`,
+    author: {
+      name: `Moeiz Ahmed`,
+      summary: ``,
+    },
+    description: `Personal blog of Moeiz Ahmed`,
+    social: {
+    },
     siteUrl: `https://moeiz.netlify.app/`,
   },
   plugins: [
