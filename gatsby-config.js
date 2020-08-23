@@ -1,11 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Moeiz's Blog`,
-    author: {
-      name: `Moeiz Ahmed`,
-      summary: ``,
-    },
-    description: `A blog for my thoughts sharing`,
+    author: `Moeiz Ahmed`,
+    description: `Personal blog by Moeiz Ahmed`,
     siteUrl: `https://moeiz.netlify.app/`,
   },
   plugins: [
@@ -58,8 +55,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Moeiz Thoughts`,
+        short_name: `Thoughts`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
