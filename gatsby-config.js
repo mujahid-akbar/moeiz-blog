@@ -6,8 +6,6 @@ module.exports = {
       summary: ``,
     },
     description: `Personal blog of Moeiz Ahmed`,
-    social: {
-    },
     siteUrl: `https://moeiz.netlify.app/`,
   },
   plugins: [
